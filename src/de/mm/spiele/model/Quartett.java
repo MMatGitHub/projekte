@@ -17,22 +17,42 @@ public class Quartett {
 		String aBish= "abcdefgh";
 		for (int i=1 ; i<5;i++){
 			for (int c = 0; c < aBish.length();c++){
-//				Karte<Himmelskoerper> k = new Karte<Himmelskoerper>(new Himmelskoerper()
-//						.createMars(), i, aBish.substring(c,c+1), "linkZurGraphik");
-//				quartett.add(k);
 				quartett.add(new Karte<Himmelskoerper>(new Himmelskoerper(), i, aBish.substring(c,c+1), "linkZurGraphik"));
 			}
-			//quartett.add(new Karte(1, "a", "href://eertlksd", new Himmelskoerper().createErde()));
-			//quartett.add(new Karte(1, "b", "href://mars", new Himmelskoerper().createMars()));
 		}
-		getHimmelskoerperAusListe(1).createNamedHimmelskoerper("Venus");
-		getHimmelskoerperAusListe(2).createErde();
-		getHimmelskoerperAusListe(3).createMars();
-//		Karte<Himmelskoerper> x = quartett.get(4);
-//		x.getObjekt().createNamedHimmelskoerper("Venus");
-//		for (Karte<Himmelskoerper> k :quartett){
-//			k.getObjekt().createNamedHimmelskoerper("Venus");
-//		}
+		getHimmelskoerperAusListe(1).createErde();
+		getHimmelskoerperAusListe(2).createMars();
+		getHimmelskoerperAusListe(3).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(4).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(5).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(6).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(7).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(8).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(9).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(10).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(11).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(12).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(13).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(14).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(15).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(16).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(17).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(18).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(19).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(20).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(21).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(22).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(23).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(24).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(25).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(26).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(27).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(28).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(29).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(30).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(31).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(32).createNamedHimmelskoerper("Venus");
+
 	}
 	private Himmelskoerper getHimmelskoerperAusListe(int i){
 		Himmelskoerper hk;
