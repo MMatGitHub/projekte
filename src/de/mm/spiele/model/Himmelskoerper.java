@@ -48,7 +48,7 @@ public class Himmelskoerper {
 	
 
 	public String printEigenschaften() {
-		String s = " [";
+		String s = " [ ";
 		for (Eigenschaft e: this.eigenschaftsSet){
 			//s += e.getAuspraegung()+" ";
 			s += e.getDimension().toString() +":" + e.getWert()+" ";
