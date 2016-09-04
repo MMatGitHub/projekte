@@ -12,7 +12,7 @@ public class QuartettTest {
 	@Test
 	public void EsSind32KartenImSpiel() {
 		int anzKarten = new Quartett().getAnzahlKarten();
-		Assert.assertTrue("Es sind "+ anzKarten + " im Spiel", 32== anzKarten ); 
+		Assert.assertTrue("Es sind "+ anzKarten + " im Spiel", 32== anzKarten ) ; 
 	}
 
 }
