@@ -22,13 +22,13 @@ public class Quartett {
 		}
 		getHimmelskoerperAusListe(1).createErde();
 		getHimmelskoerperAusListe(2).createMars();
-		getHimmelskoerperAusListe(3).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(3).createNamedHimmelskoerper("Merkur");
 		getHimmelskoerperAusListe(4).createNamedHimmelskoerper("Venus");
-		getHimmelskoerperAusListe(5).createNamedHimmelskoerper("Venus");
-		getHimmelskoerperAusListe(6).createNamedHimmelskoerper("Venus");
-		getHimmelskoerperAusListe(7).createNamedHimmelskoerper("Venus");
-		getHimmelskoerperAusListe(8).createNamedHimmelskoerper("Venus");
-		getHimmelskoerperAusListe(9).createNamedHimmelskoerper("Venus");
+		getHimmelskoerperAusListe(5).createNamedHimmelskoerper("Uranus");
+		getHimmelskoerperAusListe(6).createNamedHimmelskoerper("Pluto");
+		getHimmelskoerperAusListe(7).createNamedHimmelskoerper("Saturn");
+		getHimmelskoerperAusListe(8).createNamedHimmelskoerper("Jupiter");
+		getHimmelskoerperAusListe(9).createNamedHimmelskoerper("Mond");
 		getHimmelskoerperAusListe(10).createNamedHimmelskoerper("Venus");
 		getHimmelskoerperAusListe(11).createNamedHimmelskoerper("Venus");
 		getHimmelskoerperAusListe(12).createNamedHimmelskoerper("Venus");

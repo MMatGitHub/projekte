@@ -19,7 +19,7 @@ public class Himmelskoerper {
 		this.bezeichnung= bezeichnung;
 		switch (this.bezeichnung){
 			case "Venus": {
-				this.eigenschaftsSet.add(new Eigenschaft(Dimension.GEWICHT, 1.99));
+				this.eigenschaftsSet.add(new Eigenschaft(Dimension.GEWICHT, 0.815));
 				this.eigenschaftsSet.add(new Eigenschaft(Dimension.ANZAHLMONDE, 0.0));
 				this.eigenschaftsSet.add(new Eigenschaft(Dimension.ENTFERNUNGZURSONNE, 1000000));
 				break;
@@ -40,8 +40,8 @@ public class Himmelskoerper {
 	}
 	public Himmelskoerper createMars(){
 		this.bezeichnung= "Mars";
-		this.eigenschaftsSet.add(new Eigenschaft(Dimension.GEWICHT, 0.9));
-		this.eigenschaftsSet.add(new Eigenschaft(Dimension.ANZAHLMONDE, 0.0));
+		this.eigenschaftsSet.add(new Eigenschaft(Dimension.GEWICHT, 0.107));
+		this.eigenschaftsSet.add(new Eigenschaft(Dimension.ANZAHLMONDE, 2.0));
 		this.eigenschaftsSet.add(new Eigenschaft(Dimension.ENTFERNUNGZURSONNE, 2000000));
 		return this;
 	}
