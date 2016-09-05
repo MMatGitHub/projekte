@@ -3,7 +3,7 @@ package de.mm.spiele.model;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Himmelskoerper extends Thema {
+public class Himmelskoerper {
 	Set<Eigenschaft> eigenschaftsSet = new HashSet<Eigenschaft> ();
 	public String bezeichnung;
 	

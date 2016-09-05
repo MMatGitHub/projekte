@@ -10,6 +10,9 @@ public class Karte<T extends Thema> {
 		this.buchstabe = buchstabe;
 		this.linkZurGraphik = linkZurGraphik;
 	}
+	public Karte(int i){
+		this.nummer = i;
+		}
 //	public Karte(Thema t, int nummer, String buchstabe, String linkZurGraphik){
 //		this (nummer,buchstabe,linkZurGraphik);
 	//	this.t = t;

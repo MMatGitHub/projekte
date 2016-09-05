@@ -1,59 +1,52 @@
 package de.mm.spiele.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Thema_Himmelskoerper extends Thema {
+	List<Karte<Thema_Himmelskoerper>> karten = new ArrayList<Karte<Thema_Himmelskoerper>>();
+	final Thema thema;
+	public Thema_Himmelskoerper(){
+		thema = new Thema();
+		doCreate ();
+	}
+		
 
 	private void doCreate(){
 		int i=1;
-		getHimmelskoerperAusListe(i++).createMars();
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Sonne");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Merkur");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Venus");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Erde");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Erdenmond");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Mars");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Jupiter");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Saturn");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Iapetus");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Uranus");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Neptun");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Pluto");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Charon");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Ganymed");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Titan (Saturnmond)");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Kallisto");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("IO");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Oberon");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Mimas (Saturnmond)");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("ISS Internationale Raumstation");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Halleyscher Komet");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Eris");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Kuipergürtel");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Milchstraße");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Andromeda");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Venus");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Alpha Centauri");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("Proxima Centauri");
-		getHimmelskoerperAusListe(i++).createNamedHimmelskoerper("V4641 Sagittarius (2000) Schwarzes Loch");
+		new Karte<Thema_Himmelskoerper>(3, "u", "String linkZurGraphik");
+	//	new Karte<Thema_Himmelskoerper>(2).add(new Eigenschaften<Himmelskoerper>("Pluto"));
+		//getNextHimmelskoerper(i++).createMars();
+		//getNextHimmelskoerper(i++).createNamedHimmelskoerper("Sonne");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Merkur");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Venus");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Erde");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Erdenmond");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Mars");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Jupiter");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Saturn");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Iapetus");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Uranus");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Neptun");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Pluto");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Charon");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Ganymed");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Titan (Saturnmond)");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Kallisto");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("IO");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Oberon");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Mimas (Saturnmond)");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("ISS Internationale Raumstation");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Halleyscher Komet");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Eris");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Kuipergürtel");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Milchstraße");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Andromeda");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Venus");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Alpha Centauri");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("Proxima Centauri");
+//		getNextHimmelskoerper(i++).createNamedHimmelskoerper("V4641 Sagittarius (2000) Schwarzes Loch");
 	}
 
-private Himmelskoerper getHimmelskoerperAusListe(int i){
-	Himmelskoerper hk;
-	Karte<Himmelskoerper> temp = quartett.get(i);
-	hk = temp.getObjekt();
-	return hk;
-}
-private Himmelskoerper create(String bezeichnung){
-	return new Himmelskoerper(bezeichnung);
-}
-public String dump(){
-	String s ="";
-	int i = 0;
-	for (Karte<Himmelskoerper> k : quartett){
-		i++;
-		s += "\n" + i +": " + k.getNummer()+k.getBuchstabe() +" "+ k.getObjekt().bezeichnung + k.getObjekt().printEigenschaften(); ;
-	}
-	return s;
-}
-	
 }
