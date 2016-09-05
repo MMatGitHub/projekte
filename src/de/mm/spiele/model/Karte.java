@@ -1,23 +1,27 @@
 package de.mm.spiele.model;
 
-public class Karte<T> {
-	private T t;
+public class Karte<T extends Thema> {
+	//private Thema t;
 	String buchstabe;
 	String linkZurGraphik;
 	int nummer;
-	public Karte(T t, int nummer, String buchstabe, String linkZurGraphik){
-		this.t = t;
+	public Karte(int nummer, String buchstabe, String linkZurGraphik){
 		this.nummer = nummer;
 		this.buchstabe = buchstabe;
 		this.linkZurGraphik = linkZurGraphik;
 	}
-	public void setObjekt(T t) {
-		this.t = t;
-	}
-	
-	public T getObjekt() {
-		return t;
-	}
+//	public Karte(Thema t, int nummer, String buchstabe, String linkZurGraphik){
+//		this (nummer,buchstabe,linkZurGraphik);
+	//	this.t = t;
+
+//	}
+//	public void setObjekt(Thema t) {
+//		this.t = t;
+//	}
+//	
+//	public Thema getObjekt() {
+//		return t;
+//	}
 public int getNummer() {
 	return nummer;
 }
